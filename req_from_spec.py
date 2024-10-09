@@ -261,7 +261,7 @@ iii. Are only connected to pressure sensors, or are blanked, without leakage.
 
 
 response = model.generate_content(context+prompt)
-# print("RESPONSE:",response.text)
+print("RESPONSE:",response.text)
 print("Usage Metadata:",response.usage_metadata)
 print("Prompt Feedback",response.prompt_feedback)
 
